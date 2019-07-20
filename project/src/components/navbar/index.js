@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import ModalLogin from '../modals/modalLogin'
+import ModalCreateAccount from '../modals/modalCreateAccount'
 
 function Navbar () {
   return (
@@ -8,8 +10,8 @@ function Navbar () {
       <Link className='nav-item text-white' to='home'>Home </Link>
       <Link className='nav-item text-white' to='games'>Games </Link>
       <Link className='nav-item text-white' to='/'><h1>Game Meet! </h1></Link>
-      <a className='nav-item text-white'>Log In</a>
-      <a className='nav-item text-white'>Create Account</a>
+      <ModalLogin />
+      <ModalCreateAccount />
     </nav>
 
   )
