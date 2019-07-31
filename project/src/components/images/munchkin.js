@@ -36,7 +36,7 @@ class Munchkin extends React.Component {
   render () {
     return (
           <div>
-            <img src='https://pbs.twimg.com/media/D9iZq-yWkAA0tT0.jpg' alt='Photosynthesis'
+            <img src='https://cf.geekdo-images.com/itemrep/img/kPfLihonl0sXH47uh6fvXlJCQvQ=/fit-in/246x300/pic1871016.jpg' alt='Munchkin'
             style={{ margin: 'auto', padding: '1em', borderRadius: '200px' }} onClick={this.munchkinShowing}
             />
             <GameData show={!this.state.munchkinData} username={this.state.username} description={this.state.description} />
