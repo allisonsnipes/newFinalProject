@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button, Modal } from 'react-bootstrap'
 
+// make this a class and a render function
 function ModalCreateAccount () {
   const [show, setShow] = React.useState(false)
   const handleClose = () => setShow(false)
